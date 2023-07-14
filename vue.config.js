@@ -1,4 +1,3 @@
-const isProduction = process.env.NODE_ENV === 'production'
 module.exports = {
   publicPath: './', // 配置打包后本地可双击index.html打开
   productionSourceMap: false, // 是否为生产环境构建生成sourceMap
@@ -18,7 +17,7 @@ module.exports = {
     },
     proxy: {
       "/api": {
-        target: "http://106.55.31.12:82/api",   // 需要跨域的地址
+        target: "http://xxx/api",   // 需要跨域的地址
         changeOrigin: true,  // 改变源
         ws: true,  //  websocket开启
         secure: false,   // https检查

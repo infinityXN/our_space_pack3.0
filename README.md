@@ -1,24 +1,8 @@
 # our_space
 
-## Project setup
-```
-npm install
-```
+这是一个 vue3.0+webpack+element-plus 前端项目。
+用到了vue-use库，功能多多，是个很牛的库
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+实现功能：
+1、深、浅色主题切换；
+2、自定义命名空间（自定义样式前缀）；

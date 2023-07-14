@@ -1,4 +1,5 @@
 <template>
+  <!-- 根据官方文档，这里配置的是自定义空间命名 -->
   <el-config-provider namespace="infinity">
     <div id="app">
       <router-view v-slot="{ Component }">

@@ -7,11 +7,6 @@ const routes = [
     name: 'Home',
     component: Home
   },
-  {
-    path: '/vue-use',
-    name: 'VueUse',
-    component: () => import('../views/VueUse')
-  }
 ]
 
 const router = createRouter({
