@@ -1,0 +1,9 @@
+/* 
+  用于在vue.config.js中配置自定义命名空间
+  深色主题样式不能在这里引入，会报错。
+  所以在main.js中单独引入
+*/
+@forward 'element-plus/theme-chalk/src/mixins/config.scss' with (
+  $namespace: 'infinity'
+);
+@import 'element-plus/theme-chalk/src/index.scss';

@@ -1,0 +1,9 @@
+/* 解决：数字类型输入框输入中文，光标向上偏移问题 */
+::v-deep .el-input__inner.clear-number-input {
+  line-height: 1px !important;
+};
+/* 去掉数字输入框右边的上下箭头 */
+.clear-number-input ::v-deep input[type="number"]::-webkit-outer-spin-button,
+.clear-number-input ::v-deep input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+};
